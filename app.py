@@ -10,7 +10,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "service_account.json"
 vertexai.init(project="teaching-466210", location="us-central1")
 
 
-model = GenerativeModel("gemini-1.5-flash")
+model = GenerativeModel("gemini-2.0-flash-001")
 
 
 app = Flask(__name__)
