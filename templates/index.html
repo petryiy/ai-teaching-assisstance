@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI teaching assist</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+
+</head>
+<body>
+    <h1>AI teaching assistance</h1>
+    <form method="POST" action="/generate">
+        <textarea name="textbook" placeholder="请粘贴教材内容"></textarea>
+        <button type="submit">提取要点并生成题目</button>
+    </form>
+</body>
+</html>

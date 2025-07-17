@@ -1,0 +1,13 @@
+body {
+    font-family: "Arial";
+    background-color: #fffef0;
+    padding: 40px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+a {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #4caf50;
+}
